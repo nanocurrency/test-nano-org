@@ -20,6 +20,13 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
 html {
   height: 100%
 }
@@ -162,6 +169,24 @@ body {
   border-bottom: 1px solid #dce9f9;
 }
 
+.other-builds {
+  padding: 30px 50px ;
+  text-align:  center;
+}
+
+.other-builds code {
+  margin: 0 0 20px 0;
+  display: flex;
+  background-color: #f2f2f2;
+  justify-content: center;
+  line-height: 50px;
+  border-radius: 5px;
+}
+
+.other-builds .link {
+  font-size: 16px;
+}
+
 .nano-testing-faucet {
   padding: 30px 50px ;
   border-bottom: 1px solid #dce9f9;
@@ -174,6 +199,16 @@ body {
 
 .link:hover{
   text-decoration: underline;
+}
+
+.link-arrow:after {
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 20px;
+  background: transparent url(../images/link-arrow.svg) no-repeat;
+  background-size: 20px 12px;
+  background-position: left 8px;
 }
 
 .recaptcha {
